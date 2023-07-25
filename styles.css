@@ -23,6 +23,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /*.backgroundVideo {
     position: fixed;
     top: 0;
@@ -49,7 +50,7 @@ body.info-page {
 body.favourite-page {
     margin: 0;
     padding: 0;
-    background-image: url("./assets/images/marvel3.jpg"); /* Replace "path/to/your/background-image.jpg" with the actual path to your background image */
+    background-image: url("./assets/images/marvel3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
