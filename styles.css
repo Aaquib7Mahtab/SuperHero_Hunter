@@ -1,0 +1,119 @@
+/* FONT */
+@font-face {
+    font-family: "Marvel";
+    src: url("/fonts/Marvel.ttf") format('truetype');
+}
+
+.d-flex {
+    width: 100% !important;
+}
+
+.superHeroName {
+    font-family: "Marvel" !important;
+}
+
+.fa-solid, .fa-regular  {
+    font-size: 2rem !important;
+    text-decoration: none;
+    margin-left: 1rem !important;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.backgroundVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+body.info-page {
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/images/marvel2.jpg"); /* Replace "path/to/your/background-image.jpg" with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+body.favourite-page {
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/images/marvel3.jpg"); /* Replace "path/to/your/background-image.jpg" with the actual path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.navbar-brand > h1 {
+    color: #23046b;
+    font-size: 3rem;
+    
+}
+
+.navbar-brand > h1:hover {
+    color: #ff000d;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    color: black !important; 
+}
+
+
+.card-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem !important;
+
+}
+
+
+section .card-title {
+    font-family: Marvel;
+    font-weight: bold !important;
+    font-size: 2rem !important;
+}
+
+.no-fav {
+    margin-top: 30% !important;
+    color: rgb(255, 255, 255) !important;
+}
+.fav-margin {
+    margin-top: 8% !important;
+}
+
+/* Footer Section */
+
+footer {
+    margin: 0px;
+    position: fixed !important; 
+    top: 94%;
+    margin-top: 1%;
+    /* padding-top: 5px !important; 
+    padding-bottom: 5px !important; */
+    width: 100%; 
+    height: 20%;
+    background-color: lavender;
+    /* font-family: 'Courier New', Courier, monospace; */
+    text-align: center;
+    font-size: 1.5rem !important;
+    font-weight: 500; 
+     
+ }
+ 
