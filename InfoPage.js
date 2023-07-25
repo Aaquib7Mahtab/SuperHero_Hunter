@@ -30,8 +30,8 @@ getMarvelResponse(characterId);
 
 // Hit API and Fetch the matching characters
 async function getMarvelResponse(id) {
-    var PRIV_KEY = "230f014ca05c295137332efffba0e13178e47845";
-    var PUBLIC_KEY = "547bfb64e330bb09ecef7649d1682d01";
+    var PRIV_KEY = "32cb1aefc79434d715b522606b9a08461965bd88";
+    var PUBLIC_KEY = "c1bd1f80d7dd1c01c37f9f8fef46adfb";
     var ts = new Date().getTime();
     var hash = CryptoJS.MD5(ts + PRIV_KEY + PUBLIC_KEY).toString();
     // console.log(hash, " ", ts);
